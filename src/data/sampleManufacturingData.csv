@@ -1,0 +1,11 @@
+BatchID,Product,Plant,Quantity,Unit,Total,Date
+B-101,Widget,A1,100,kg,100,2026-06-01
+B-101,Widget,A1,100,kg,100,2026-06-01
+B-102,Widget,A1,220,lb,220,2026-06-01
+B-102,Widget,A1,100,kg,100,2026-06-01
+B-103,Gadget,B2,50,kg,50,2026-06-02
+B-103,Gadget,B2,55,kg,50,2026-06-02
+B-104,Widget,A1,75,kg,75,2026-06-03
+B-105,Widget,A1,,kg,80,2026-06-03
+B-106,Gadget,B2,40,kg,40,2026-06-04
+B-106,Gadget,B2,40,kg,40,2026-06-04
