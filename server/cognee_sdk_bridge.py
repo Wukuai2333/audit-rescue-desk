@@ -168,6 +168,9 @@ class Handler(BaseHTTPRequestHandler):
 
 
 if __name__ == "__main__":
+    if os.environ.get("STREAMLIT_SERVER_PORT"):
+        print("This file is the Cognee SDK bridge, not the Streamlit app. Use app.py as the Streamlit main module.")
+        raise SystemExit(0)
     print(f"Cognee SDK bridge listening on http://localhost:{PORT}")
     print(f"Dataset: {DATASET_NAME}")
     print("Mode: local Cognee SDK")
